@@ -44,6 +44,19 @@ namespace ConsoleApp8
 
 
             #endregion
+            #region question5
+            //5-Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable
+            //int pages = 400; and print pages afterward. What do you expect to see, and why?
+            //void AddBonus(int pages)
+            //{
+            //    pages += 50;
+            //}
+            //int pages = 400;
+            //AddBonus(pages);
+            //Console.WriteLine(pages);
+            //same value,because parameter is by value
+
+            #endregion
         }
     }
 }
