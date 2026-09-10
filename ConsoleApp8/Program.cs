@@ -32,6 +32,18 @@ namespace ConsoleApp8
             //printwelcome();
 
             #endregion
+            #region question4
+            //4-Write a method PrintBookTitle(string title) that prints "Book title: " + title. Call it with
+            //"Clean Code".
+            //void PrintBookTitle(string title)
+            //{
+            //    Console.WriteLine("book title:" + title);
+            //}
+            //string title = "clean code";
+            //PrintBookTitle(title);
+
+
+            #endregion
         }
     }
 }
