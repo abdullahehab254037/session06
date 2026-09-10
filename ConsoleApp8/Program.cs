@@ -71,6 +71,20 @@ namespace ConsoleApp8
             //the value will change, because array is automatic refrence type
 
             #endregion
+            #region question7
+            //7-Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref.
+            //Call it and print pages afterward. How is the result different from question 5 ?
+            //void AddBonus( ref int pages)
+            //{
+            //    pages += 50;
+            //}
+            //int pages = 400;
+            //AddBonus(ref pages);
+            //Console.WriteLine(pages);
+            //the value will change, because the parameter is by refrence 
+
+
+            #endregion
         }
     }
 }
