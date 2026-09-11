@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Drawing;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ConsoleApp8
 {
@@ -83,6 +84,22 @@ namespace ConsoleApp8
             //Console.WriteLine(pages);
             //the value will change, because the parameter is by refrence 
 
+
+            #endregion
+            #region question8
+            //8-Write a method ReplaceArray(ref double[] prices) that replaces prices entirely with a
+            //new array { 10.0, 12.5, 15.0 }.Call it with your prices array and print prices.Length
+            //afterward.
+            //void ReplaceArray(ref double[]prices)
+            //{
+            //    prices=new double[] { 10.0, 12.5, 15.0 };
+            //}
+            //double[] prices = { 25.5, 40.0 };
+            //ReplaceArray(ref prices);
+            //for (int i = 0; i < prices.Length; i++)
+            //{
+            //    Console.WriteLine(prices[i]);
+            //}
 
             #endregion
         }
