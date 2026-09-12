@@ -173,11 +173,17 @@ namespace ConsoleApp8
             #endregion
 
             #region question 13
-           // Book book1=new Book();
-           //can't access password, because it's private
+            // Book book1=new Book();
+            //can't access password, because it's private
 
             #endregion
-            
+            #region question14
+            //Book book = new Book();
+            //Console.WriteLine(book.copiesInStock);
+            //because it's internal 
+
+            #endregion
+
 
         }
     }
