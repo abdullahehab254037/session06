@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Text;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -160,17 +161,30 @@ namespace ConsoleApp8
             #region question12
             //4-Write a method PrintAllTitles(params string[] titles) that prints each title on its
             //own line. Call it with three book titles.
-           //  void PrintAllTitles(params string[] titles)
-           // {
-           //     foreach (string title in titles)
-           //     {
-           //         Console.WriteLine(title);
-           //     }
-           //    
-           // }
-           // PrintAllTitles("Clean Code", "The Pragmatic Programmer", "Refactoring");
+            //  void PrintAllTitles(params string[] titles)
+            // {
+            //     foreach (string title in titles)
+            //     {
+            //         Console.WriteLine(title);
+            //     }
+            //    
+            // }
+            // PrintAllTitles("Clean Code", "The Pragmatic Programmer", "Refactoring");
             #endregion
 
+            #region question 13
+           // Book book1=new Book();
+           //can't access password, because it's private
+
+            #endregion
+            
+
         }
+    }
+    class Book
+    {
+        private string password = "secret";
+        internal int copiesInStock = 5;
+        public string Title;
     }
 }
