@@ -100,6 +100,34 @@ namespace ConsoleApp8
             //{
             //    Console.WriteLine(prices[i]);
             //}
+            #region question 9
+            //1-Write a method bool TryGetPrice(string title, out double price) that returns
+            //true and sets price to 25.5 if title is "Clean Code", otherwise returns false and
+            //sets price to 0.Call it and print the price if found
+            //bool TryGetPrice(string title, out double price)
+            //{
+            //    if (title == "Clean Code")
+            //    {
+            //        price = 25.5;
+            //        return true;
+            //    }
+            //    else
+            //    {
+            //        price = 0;
+            //        return false;
+            //    }
+            //}
+            //string title = "Clean Code";
+            //if (TryGetPrice(title, out double price))
+            //{
+            //    Console.WriteLine("Price found: " + price);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Book not found.");
+            //}
+
+            #endregion
 
             #endregion
         }
