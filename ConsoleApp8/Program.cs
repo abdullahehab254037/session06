@@ -183,6 +183,11 @@ namespace ConsoleApp8
             //because it's internal 
 
             #endregion
+            #region question15
+            //Book book = new Book();
+            //book.Title = "Clean Code";
+            //Console.WriteLine(book.Title);
+            #endregion
 
 
         }
