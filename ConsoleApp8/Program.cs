@@ -1,4 +1,6 @@
 ﻿using System.Drawing;
+using System.Reflection;
+using System.Text;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ConsoleApp8
@@ -128,6 +130,18 @@ namespace ConsoleApp8
             //}
 
             #endregion
+
+            #endregion
+
+            #region question 10
+            //2-Write a method PrintBookInfo(string title, int pages = 300) where pages is
+            //optional.Call it once with only a title, and once passing both a title and pages.
+            //void PrintBook(string title,int pages=300)
+            //{
+            //    Console.WriteLine(title + ":" + pages);
+            //}
+            //PrintBook("route", 400);
+            //PrintBook("route");
 
             #endregion
         }
